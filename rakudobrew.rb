@@ -5,6 +5,6 @@ class Rakudobrew < Formula
   homepage 'https://github.com/tadzik/rakudobrew'
 
   def install
-      bin.install Dir["bin/rakudobrew"]
+      bin.install Dir["bin/*"]
   end
 end
